@@ -11,7 +11,7 @@ app.get('/so', (req, res) => {
   if (Math.random() < 0.5) {
     res.send(`/timeout ${user} 60`);
   } else {
-    res.send(`Shout ${user} BTW!`);
+    res.send(`Shoutout ${user} BTW!`);
   }
 });
 
